@@ -1,0 +1,19 @@
+{
+  "name": "python-extension-pack-0x01code",
+  "displayName": "Python Extension Pack 0x01code",
+  "description": "My Python Extension Pack",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [ 
+    "ms-python.python", 
+    "ms-python.autopep8", 
+    "EditorConfig.EditorConfig", 
+    "IronGeek.vscode-env", 
+    "PKief.material-icon-theme"
+  ]
+}
