@@ -7,7 +7,7 @@
   "publisher": "0x01code",
   "icon": "images/icon.png",
   "engines": {
-    "vscode": "^1.98.0"
+    "vscode": "^1.85.0"
   },
   "categories": [
     "Extension Packs"
