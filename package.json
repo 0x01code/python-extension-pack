@@ -2,18 +2,21 @@
   "name": "python-extension-pack-0x01code",
   "displayName": "Python Extension Pack 0x01code",
   "description": "My Python Extension Pack",
-  "version": "0.0.1",
+  "version": "0.0.3",
+  "repository": "https://github.com/0x01code/python-extension-pack",
+  "publisher": "0x01code",
+  "icon": "images/icon.png",
   "engines": {
-    "vscode": "^1.85.0"
+    "vscode": "^1.98.0"
   },
   "categories": [
     "Extension Packs"
   ],
-  "extensionPack": [ 
-    "ms-python.python", 
-    "ms-python.autopep8", 
-    "EditorConfig.EditorConfig", 
-    "IronGeek.vscode-env", 
-    "PKief.material-icon-theme"
+  "extensionPack": [
+    "ms-python.python",
+    "ms-python.autopep8",
+    "ms-python.debugpy",
+    "ms-python.vscode-pylance",
+    "ms-python.vscode-python-envs"
   ]
 }
